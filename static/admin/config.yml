@@ -370,92 +370,14 @@ collections: # A list of collections the CMS should be able to edit
             options: ["default", "ocean", "forest", "dark", "apogee", "1950s", "coffee", "cupcake"]
           - label: "Menu"
             name: "menu"
-            widget: "object"
-            fields:
-              - label: "First"
-                name: "menu_one"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
-              - label: "Second"
-                name: "menu_two"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
-              - label: "Third"
-                name: "menu_three"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
-              - label: "Forth"
-                name: "menu_four"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
-              - label: "Fifth"
-                name: "menu_five"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
-              - label: "Sixth"
-                name: "menu_six"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
-              - label: "Seventh"
-                name: "menu_seven"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
-              - label: "Eighth"
-                name: "menu_eight"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
-              - label: "Nineth"
-                name: "menu_nine"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
-              - label: "Tenth"
-                name: "menu_ten"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
-              - label: "Eleventh"
-                name: "menu_eleven"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
-              - label: "Twelveth"
-                name: "menu_twelve"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
+            widget: "select"
+            multiple: true
+            options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
           - label: "Widgets"
             name: "widgets"
-            widget: "object"
-            fields:
-              - label: "First"
-                name: "widget_one"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact"]
-              - label: "Second"
-                name: "widget_two"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact"]
-              - label: "Third"
-                name: "widget_three"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact"]
-              - label: "Forth"
-                name: "widget_four"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact"]
-              - label: "Fifth"
-                name: "widget_five"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact"]
-              - label: "Sixth"
-                name: "widget_six"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact"]
-              - label: "Seventh"
-                name: "widget_seven"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact"]
-              - label: "Eight"
-                name: "widget_eight"
-                widget: "select"
-                options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact"]
+            widget: "select"
+            multiple: true
+            options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact"]
           - label: "Reports"
             name: "g_reports"
             widget: "object"

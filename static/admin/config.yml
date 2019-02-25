@@ -372,11 +372,13 @@ collections: # A list of collections the CMS should be able to edit
             name: "menu"
             widget: "select"
             multiple: true
+            hint: "Top to bottom."
             options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact", "Twitter", "Facebook", "Search", "Night Mode"]
           - label: "Widgets"
             name: "widgets"
             widget: "select"
             multiple: true
+            hint: "Left to right."
             options: ["About", "Skills", "Experience", "Accomplishments", "Posts", "Projects", "Tags", "Contact"]
           - label: "Reports"
             name: "g_reports"

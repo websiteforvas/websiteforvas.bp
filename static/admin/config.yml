@@ -11,7 +11,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", default: "About"}
+      - {label: "Title", name: "title", widget: "string", default: "About", hint: "EXISTING FILE WITH THE SAME TITLE WILL BE OVERWRITTEN"}
       - {label: "Draft", name: "draft", widget: "hidden", default: true}
       - label: "About"
         name: "a_about"
@@ -58,7 +58,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", default: "Education"}
+      - {label: "Title", name: "title", widget: "string", default: "Education", hint: "EXISTING FILE WITH THE SAME TITLE WILL BE OVERWRITTEN}
       - {label: "Draft", name: "draft", widget: "hidden", default: true}
       - label: "Education"
         name: "b_education"
@@ -94,7 +94,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", default: "Skills"}
+      - {label: "Title", name: "title", widget: "string", default: "Skills", hint: "EXISTING FILE WITH THE SAME TITLE WILL BE OVERWRITTEN}
       - {label: "Draft", name: "draft", widget: "hidden", default: true}
       - label: "Skills"
         name: "c_skills"
@@ -167,7 +167,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have      
-      - {label: "Title", name: "title", widget: "string", default: "Accomplishments"}
+      - {label: "Title", name: "title", widget: "string", default: "Accomplishments", hint: "EXISTING FILE WITH THE SAME TITLE WILL BE OVERWRITTEN}
       - {label: "Draft", name: "draft", widget: "hidden", default: true}
       - label: "Accomplishments"
         name: "d_accomplishments"
@@ -212,7 +212,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have        
-      - {label: "Title", name: "title", widget: "string", default: "Experience"}
+      - {label: "Title", name: "title", widget: "string", default: "Experience", hint: "EXISTING FILE WITH THE SAME TITLE WILL BE OVERWRITTEN}
       - {label: "Draft", name: "draft", widget: "hidden", default: true}
       - label: "Experience"
         name: "e_experience"
@@ -279,7 +279,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have              
-      - {label: "Title", name: "title", widget: "string", default: "Projects"}
+      - {label: "Title", name: "title", widget: "string", default: "Projects", hint: "EXISTING FILE WITH THE SAME TITLE WILL BE OVERWRITTEN}
       - {label: "Draft", name: "draft", widget: "hidden", default: true}
       - label: "Projects/Portfolio"
         name: "f_projects"
@@ -325,7 +325,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have      
-      - {label: "Title", name: "title", widget: "string", default: "Contact"}
+      - {label: "Title", name: "title", widget: "string", default: "Contact", hint: "EXISTING FILE WITH THE SAME TITLE WILL BE OVERWRITTEN}
       - {label: "Draft", name: "draft", widget: "hidden", default: true}
       - label: "Contact"
         name: "g_contact"
@@ -349,7 +349,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have      
-      - {label: "Title", name: "title", widget: "string", default: "Website Config"}
+      - {label: "Title", name: "title", widget: "string", default: "Website Config", hint: "EXISTING FILE WITH THE SAME TITLE WILL BE OVERWRITTEN}
       - {label: "Draft", name: "draft", widget: "hidden", default: true}
       - label: "Website"
         name: "h_website"
@@ -415,7 +415,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title", name: "title", widget: "string", hint: "EXISTING FILE WITH THE SAME TITLE WILL BE OVERWRITTEN}
       - {label: "Draft", name: "draft", widget: "hidden", default: true}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}

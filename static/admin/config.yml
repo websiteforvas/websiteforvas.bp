@@ -7,7 +7,7 @@ public_folder: "uploads"
 collections: # A list of collections the CMS should be able to edit
   - name: "about" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "About" # Used in the UI, ie.: "New Post"
-    folder: "content/post/config" # The path to the folder where the documents are stored
+    folder: "content/post/config/about" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
@@ -54,7 +54,7 @@ collections: # A list of collections the CMS should be able to edit
   
   - name: "education" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Education" # Used in the UI, ie.: "New Post"
-    folder: "content/post/config" # The path to the folder where the documents are stored
+    folder: "content/post/config/education" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
@@ -90,7 +90,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "skills" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Skills" # Used in the UI, ie.: "New Post"
-    folder: "content/post/config" # The path to the folder where the documents are stored
+    folder: "content/post/config/skills" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
@@ -163,7 +163,7 @@ collections: # A list of collections the CMS should be able to edit
   
   - name: "accomplishments" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Accomplishments" # Used in the UI, ie.: "New Post"
-    folder: "content/post/config" # The path to the folder where the documents are stored
+    folder: "content/post/config/accomplishments" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have      
@@ -208,7 +208,7 @@ collections: # A list of collections the CMS should be able to edit
   
   - name: "experience" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Experience" # Used in the UI, ie.: "New Post"
-    folder: "content/post/config" # The path to the folder where the documents are stored
+    folder: "content/post/config/experience" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have        
@@ -275,7 +275,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "projects" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Projects" # Used in the UI, ie.: "New Post"
-    folder: "content/post/config" # The path to the folder where the documents are stored
+    folder: "content/post/config/projects" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have              
@@ -321,7 +321,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "contact" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Contact" # Used in the UI, ie.: "New Post"
-    folder: "content/post/config" # The path to the folder where the documents are stored
+    folder: "content/post/config/contact" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have      
@@ -345,7 +345,7 @@ collections: # A list of collections the CMS should be able to edit
   
   - name: "website_config" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Website Config" # Used in the UI, ie.: "New Post"
-    folder: "content/post/config" # The path to the folder where the documents are stored
+    folder: "content/post/config/website-config" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have      
